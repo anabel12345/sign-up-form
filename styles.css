@@ -1,0 +1,158 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+:root{
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
+}
+
+
+.img-overlay{
+    background-color:rgba(0, 80, 0,0.5);
+    height:100%;
+    width:100%;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    font-size:5rem;
+    text-align:center;
+    display:flex;
+    align-items: center;
+}
+
+.img-bg{
+    background-image:url('images/goutham-krishna-h5wvMCdOV3w-unsplash.jpg') ;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    flex:1 1 0;
+
+}
+
+.overlay-text{
+    margin-top:-13rem;
+    background-color:rgba(0,0,0,0.7);
+    padding:2rem 6rem;
+    width:100%;
+}
+
+body{
+    display:flex;
+    width:100%;
+}
+html, body{
+    height:100%;
+}
+
+.survey-bg{
+    flex:1.8 1 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    /* align-items: center; */
+    padding:0rem 4rem;
+    font-size:2.5rem;
+}
+
+
+.bottom-text{
+    display: block;
+    margin-top:40px;
+    font-weight:700;
+}
+
+
+.description{
+    width:min(80%,55ch);
+}
+
+
+fieldset{
+    border:none;
+    width:100%;
+
+}
+form{
+    width:80%;
+   
+}
+
+input{
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    font-size:1.5rem;
+   
+    padding: 7px;
+    
+   display:block; 
+    margin-top:0;
+    margin-bottom: 36px;
+    width:max(250px, 30%);
+
+}
+
+label{
+    font-size: 1rem;
+}
+
+fieldset{
+    display:flex;
+    justify-content: space-around;
+    padding:16px;
+    gap:20px;
+}
+
+.input-group{
+    flex-grow:1;
+}
+
+
+input[type='submit']{
+    border:1px solid black;
+    border-radius:20px;
+    height:64px;
+    background-color: rgba(10, 78, 10,0.5);
+    align-self:flex-start;
+    margin-top:50px;
+
+}
+
+input[type='submit']:hover{
+    background-color:rgba(10, 78, 10,0.3);
+    
+}
+
+p, a{
+    font-size:26px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(10, 78, 10);
+}
+
+.user-info{
+    margin-left:-16px;
+    padding:16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+input:required{
+    border-color:green;
+}
+
+input:invalid{
+    border-color:red;
+
+}
+
+input:active{
+    border-color:blue;
+
+}
